@@ -86,7 +86,7 @@ nav ul li a.active {
     width: 150px;
     transition: transform 0.5s ease, filter 0.5s ease;
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 34%;
     transform: translateX(-50%);
     height: auto;
