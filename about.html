@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="about-style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="Asset\Teddy logo.webp" alt="Logo" class="logo" />
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="works.html">Works</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasLeft"
+                    aria-controls="offcanvasLeft"
+                    id="menu"
+                >
+                    Menu
+                </button>
+
+                <div
+                    class="offcanvas offcanvas-end z-3"
+                    tabindex="-1"
+                    id="offcanvasLeft"
+                    aria-labelledby="offcanvasLeftLabel"
+                >
+                    <div class="offcanvas-header">
+                        <button
+                            type="button"
+                            class="btn-close text-reset"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="nav-links-mobile" id="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="works.html">Works</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" style="margin-top: 80px">
+                <div class="about-content">
+                    <div class="image-container" id="logo">
+                        <div class="rounded-rectangle" id="rectangle">
+                            <img src="Asset/Teddy 2.webp" alt="Teddy 2" class="teddy2-image" id="teddy2" />
+                            <img src="Asset/Hands.webp" alt="Hands" class="hands-image" />
+                        </div>
+                    </div>
+                    <div class="text-content" id="textContent">
+                        <h1><span class="highlight">A</span><span class="highlight-secondary">bout</span></h1>
+                        <p>
+                            I am a Digital Media student at RMIT University. I am also trying to improve myself in
+                            artistic fields such as clay modeling or 2D drawing.
+                        </p>
+                        <a href="index.html" class="back-to-home">Back to Home</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script src="about-script.js"></script>
+    </body>
+</html>
